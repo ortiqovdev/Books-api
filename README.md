@@ -2,7 +2,7 @@
 
 **Run server**
 Terminal: 
-```json
+```
   npm run dev
 ```
 
