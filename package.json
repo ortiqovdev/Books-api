@@ -1,0 +1,16 @@
+{
+   "name":"books-api",
+   "author":"Akmal",
+   "main":"server.ts",
+   "version":"1.0.0",
+   "scripts": {
+      "start":"node src/server.ts",
+      "dev":"nodemon src/server.ts"
+   },
+   "dependencies":{
+      "express": "4.18.2",
+      "@types/express": "4.17.17",
+      "uuid": "9.0.0",
+      "@types/uuid": "9.0.1"
+   }
+}

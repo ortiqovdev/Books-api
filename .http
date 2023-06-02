@@ -1,0 +1,34 @@
+GET http://localhost:8080/books
+
+###
+GET http://localhost:8080/books?name=Kitoblar%20olami
+
+###
+GET http://localhost:8080/books?count=3
+
+###
+
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+    "name":"Kitoblar olami 2",
+    "author":"Akaml Ortiqov",
+    "price": 10,
+    "count" : 30
+}
+
+###
+
+DELETE  http://localhost:8080/books/1
+
+###
+PUT http://localhost:8080/books/1
+Content-Type: application/json
+
+{
+    "name":"Kitob",
+    "author":"Akaml",
+    "price": 20,
+    "count" : 10
+}
